@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "LocalLambda"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1m9ntsio4vdcp"
+s3_prefix = "LocalLambda"
+region = "eu-central-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
