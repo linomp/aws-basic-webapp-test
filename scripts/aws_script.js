@@ -36,10 +36,12 @@ let showText = (res) => {
     document.getElementById("typedtext").innerHTML = "";
     clearTimeout("typewriter()", 500);
 
-    console.log(res);
+    //console.log(`received text: ${res}`);
+    console.log("DON'T GO TO: https://main.d2hio3mz4oolpj.amplifyapp.com/create");
+
 
     // set up text to print, each item in array is new line
-    let str = "There are only 10 types of people in the world:;Those who understand binary, and those who don't."
+    let str = "This is a default text:;If you are seeing this, the app is broken..."
     var aText = res ? res.split(";") : str.split(";")
 
     var iSpeed = 100; // time delay of print out
