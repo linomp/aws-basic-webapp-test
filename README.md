@@ -4,6 +4,6 @@ My first steps in AWS - deployment of a basic web app. [Tutorial here](https://a
 
 [Check the Live version](https://main.d2hio3mz4oolpj.amplifyapp.com/)
 
-Services used:
+Services used (diagram by AWS):
 
 ![](./diagram.png)

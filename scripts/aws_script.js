@@ -15,7 +15,7 @@ var postMessage = (msg) => {
     // make API call with parameters and use promises to get response
     fetch("https://pdd6h97kk3.execute-api.eu-central-1.amazonaws.com/dev", requestOptions)
         .then(response => response.text())
-        .then(result => alert(JSON.parse(result).body))
+        .then(result => alert("... And now my db is overwritten🤡😊"))
         .catch(error => console.log('error', error));
 }
 
