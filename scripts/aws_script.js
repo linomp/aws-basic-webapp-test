@@ -13,7 +13,7 @@ var postMessage = (msg) => {
         redirect: 'follow'
     };
     // make API call with parameters and use promises to get response
-    fetch("https://wnwag2sw27.execute-api.us-east-1.amazonaws.com/dev/", requestOptions)
+    fetch("https://pdd6h97kk3.execute-api.eu-central-1.amazonaws.com/dev", requestOptions)
         .then(response => response.text())
         .then(result => alert(JSON.parse(result).body))
         .catch(error => console.log('error', error));
@@ -25,7 +25,7 @@ var getMessage = () => {
         method: 'GET',
     };
     // make API call with parameters and use promises to get response
-    fetch("https://wnwag2sw27.execute-api.us-east-1.amazonaws.com/dev/", requestOptions)
+    fetch("https://pdd6h97kk3.execute-api.eu-central-1.amazonaws.com/dev", requestOptions)
         .then(response => response.text())
         .then(result => showText(JSON.parse(result).body))
         .catch(error => console.log('error', error));
