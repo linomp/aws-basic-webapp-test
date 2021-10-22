@@ -9,7 +9,7 @@
 
 .aws-input{
     font-size:20px; 
-    width: 600px;
+    width: 60%;
     height: 200px;
 }
 
@@ -48,7 +48,7 @@ footer {
     font-size:12px; 
     width: 100%;
 	left: 0;
-	bottom: 0;
+	bottom: 1em;
 	color: white;
 	text-align: center;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
