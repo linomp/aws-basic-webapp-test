@@ -1,0 +1,44 @@
+.aws-body {
+    margin-top: 2em;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bold;
+    font-size:30px; 
+    margin: 10px 50px; 
+    font-weight: bold;
+}
+
+.aws-input{
+    font-size:20px; 
+    width: 600px;
+    height: 200px;
+}
+
+.aws-label{
+    color: white;
+}
+
+#lName {
+    margin-top: 1em;
+}
+
+body.home{
+    background: black;
+    color: white;
+    font-family: 'Waiting for the Sunrise', cursive; 
+    font-size:30px; 
+    margin: 10px 50px; 
+    letter-spacing: 6px; 
+    font-weight: bold;
+}
+
+
+.center{
+    position:absolute;
+    display:block;
+    height:100px;
+    width:600px;
+    left:50%;
+    top:50%;
+    margin-top:-50px;
+    margin-left:-300px;
+}
